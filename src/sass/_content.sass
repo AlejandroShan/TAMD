@@ -1,0 +1,48 @@
+.content
+	width: 100%
+	background: #eee	
+	&__container
+		position: relative
+		width: 1000px
+		margin: 0 auto
+		margin-top: -300px
+		display: flex
+		flex-wrap: wrap
+		background: #eee
+		+r(1000)
+			width: 100%
+			top: 0
+			margin-top: 0
+	&__container-main		
+		position: relative
+		width: 1000px
+		margin: 0 auto
+		margin-top: -100px
+		display: flex
+		flex-wrap: wrap
+		background: #eee
+		+r(1000)
+			width: 100%
+		+r(480)
+			margin-top: 0
+
+
+	&__center
+		width: 100%
+		padding: 10px
+		text-align: justify
+	&__left
+		width: 50%
+		padding: 10px
+		text-align: justify
+		+r(720)
+			width: 100% 
+	&__right
+		width: 50%
+		padding: 10px
+		text-align: justify
+		+r(720)
+			width: 100% 
+	&__name
+		font-size: 22px
+		margin-bottom: 10px

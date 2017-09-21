@@ -1,0 +1,52 @@
+.event
+	width: 100%
+	&__list
+	&__item
+		width: 100%
+		border: 2px solid $suparedbg
+		margin-bottom: 10px
+		&:last-child
+			margin-bottom: 0
+		&:hover
+			border: 2px solid $supared
+			background: #eee
+		&:hover .event__date
+			background: $supared
+			border-right: 2px solid $supared
+			border-bottom: 2px solid $supared
+		&:hover .event__date-day
+			color: #eee
+		&:hover .event__date-month
+			color: #eee
+	&__date
+		float: left
+		margin-right: 10px
+		width: 75px
+		height: 75px
+		border-right: 2px solid $suparedbg
+		border-bottom: 2px solid $suparedbg
+	&__date-day
+		color: $supared
+		text-align: center
+		font-size: 30px
+		font-weight: 600
+	&__date-month
+		color: $supared
+		text-align: center
+		font-size: 20px
+		font-weight: 600
+		text-transform: uppercase
+	&__name
+		font-size: 18px
+		font-weight: 600
+		margin-bottom: 18px
+	&__name-link
+		color: $supared
+		text-decoration: none
+		&:hover
+			text-decoration: underline
+	&__description
+		font-size: 16px
+		font-weight: 400
+		line-height: 18px
+		text-align: justify

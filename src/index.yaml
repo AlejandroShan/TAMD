@@ -1,0 +1,8 @@
+ProjectTitle: tamd
+
+PageList:
+
+- file: main.html
+  ready: 0.001%
+- file: about.html
+  ready: 0.001%

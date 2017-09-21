@@ -1,0 +1,82 @@
+.person
+	width: 100%
+
+
+	&__list
+		display: flex
+		flex-wrap: wrap
+	&__item
+		border: 2px solid $suparedbg
+		width: 100%
+		margin-bottom: 10px
+		&:last-child
+			margin-bottom: 0
+		&:hover
+			border: 2px solid $supared
+			background: $suparedbg
+	&__photo
+		width: 200px
+		height: 250px
+		float: left
+		margin: 10px
+
+	&__info
+		font-size: 16px
+		line-height: 16px
+		font-weight: 600
+		line-height: 24px
+	&__name
+		font-size: 20px
+		line-height: 18px
+		font-weight: 800
+		line-height: 32px
+	&__name-link
+		text-decoration: none
+		color: $supared
+		font-size: 20px
+		line-height: 36px
+		&:hover
+			text-decoration: underline
+	&__mail
+		font-size: 16px
+		line-height: 16px
+		font-weight: 600
+		line-height: 32px
+		text-decoration: none
+		color: $supared
+	&__mail-link
+		text-decoration: none
+		color: $supared
+		font-size: 18px
+		line-height: 36px
+		font-weight: 600
+		&:hover
+			text-decoration: underline
+	&__site
+		font-size: 18px
+	&__site-link
+		text-decoration: none
+		color: $supared
+		font-size: 18px
+		line-height: 36px
+		font-weight: 600
+		&:hover
+			text-decoration: underline
+
+
+	&__item-25
+		width: 20%
+		margin-right: 10px
+		flex-wrap: nowrap
+		&:nth-child(4n)
+			margin-right: 0
+
+	&__item-50
+		width: 50%
+		margin-bottom: 10px
+		margin-right: 10px
+		&:nth-of-type(3n)
+			margin-right: 0
+	&__item-100
+		width: 100%
+		margin-bottom: 10px
