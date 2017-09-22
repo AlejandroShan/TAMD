@@ -2,13 +2,13 @@
 	width: 100%
 	&__list
 	&__item
-		transition: all 800ms cubic-bezier(1, -0.515, 0.335, 1.225)
 		opacity: 0
 		width: 100%
 		border: 2px solid $suparedbg
 		padding: 0 10px 10px 10px
 		margin-bottom: 10px
-		transform: translate(500px, 0px)
+		transform: translate(0px, 100px)
+		transition: all 500ms linear
 		&:last-child
 			margin-bottom: 0
 		&:hover
@@ -55,8 +55,9 @@
 		font-weight: 400
 		line-height: 22px
 		text-align: justify
+	&__visible
+		transition: all 400ms linear
+		opacity: 1
+		transform: translate(0px, 0px)
 
-.visible
-	transition: all 400ms linear
-	opacity: 1
-	transform: translate(0px, 0px)
+

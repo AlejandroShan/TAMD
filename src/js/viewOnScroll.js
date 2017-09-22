@@ -8,7 +8,9 @@ var $ = require('jquery');
 function onEntry(entry) {
   entry.forEach((change) => {
     if(change.isIntersecting) {
-      change.target.classList.add('visible');
+      change.target.classList.add('event__visible');
+    } else if(change.isIntersecting) {
+      change.target.classList.removeClass('event__visible');
     }
   });
 }
